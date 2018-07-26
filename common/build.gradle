@@ -1,0 +1,11 @@
+dependencies {
+    compile("com.alibaba:fastjson:1.2.15")
+    compile("org.apache.commons:commons-lang3:3.5")
+    compile("io.springfox:springfox-swagger2:2.6.1")  {
+        exclude group: "com.google.guava", module: "guava"
+    }
+    compile("org.springframework.boot:spring-boot-starter-web:1.5.+")
+    compile("org.apache.poi:poi-ooxml:3.1+")
+    compile ("org.apache.httpcomponents:httpclient:4.5.+")
+    compile("org.jdom:jdom2:2.0.6")
+}

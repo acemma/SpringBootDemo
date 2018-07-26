@@ -1,0 +1,7 @@
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-amqp:1.5.+")
+    testCompile("org.springframework.boot:spring-boot-starter-test:1.5.+")
+}
+
