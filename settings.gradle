@@ -3,4 +3,3 @@ rootProject.name = 'SpringBootDemo'
 include 'common'
 include 'rabbit-mq-demo'
 include 'mybatis-demo'
-

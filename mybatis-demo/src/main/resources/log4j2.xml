@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [\t] %-5level %c{-3} - %msg%n" />
+        </Console>
+    </Appenders>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0">
 
-</AnchorPane>
+</Configuration>

@@ -1,6 +1,6 @@
 package com.example.demo.common.util;
 
-import com.example.demo.annotation.NotBlank;
+import org.hibernate.validator.constraints.NotBlank;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

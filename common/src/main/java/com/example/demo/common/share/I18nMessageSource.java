@@ -1,4 +1,4 @@
-package cn.com.gmmc.monitor.common.share;
+package com.example.demo.common.share;
 
 /**
  * Created by Kong on 2018/5/17.

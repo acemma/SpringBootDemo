@@ -32,7 +32,7 @@ public class MyBatisConfig implements TransactionManagementConfigurer{
     public SqlSessionFactory sqlSessionFactoryBean(){
         SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
         sqlSessionFactoryBean.setDataSource(dataSource);
-//        sqlSessionFactoryBean.setTypeAliasesPackage("com.example.demo.entity");
+        sqlSessionFactoryBean.setTypeAliasesPackage("com.example.demo.mybatis.entity");
 
         //分页插件
         PageHelper pageHelper = new PageHelper();
